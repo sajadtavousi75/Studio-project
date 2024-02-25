@@ -1,0 +1,104 @@
+@import './variables.css';
+@import './font.css';
+@import './default.css';
+@import './navbar.css';
+@import './footer.css';
+@import './product-box.css';
+
+body {
+  width: 100%;
+  height: 100%;
+padding-top: 45px;
+background-color: var(--color-50);
+
+}
+
+.main-header{
+  width: 100%;
+    background-color: var(--color-50);
+height: auto;
+}
+
+
+.main-header__search{
+    text-align: center;
+    column-gap: 20px;
+}
+select{
+  height: 30px;
+    width: 150px;
+    background-color: var(--color-100);
+    outline: none;
+    color: var(--color-50);
+    border: 2px solid var(--color-100);
+    font-family: corals b;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .search-parent > input{
+    height: 30px;
+    width:150px;
+    background-color: var(--color-50);
+    outline: none;
+    color: var(--color-100);
+    border: 2px solid var(--color-100);
+    font-family: corals b;
+    padding: 5px;
+    color: var(--color-100);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .search-parent > button{
+    height: 30px;
+    width:30px;
+    background-color: var(--color-50);
+    outline: none;
+    color: var(--color-100);
+    border: 2px solid var(--color-100);
+    font-family: corals b;
+    padding: 6px;
+    border: none;
+    outline: none;
+    background-color: var(--color-100);
+    color: var(--color-50);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+
+
+
+
+
+
+
+  .products-pagination {
+    margin: 3rem 0;
+}
+
+.products__pagination-list {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.products__pagination-link {
+    border-radius: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.products__pagination-link:hover {
+    color: var(--color-50);
+    background-color: var(--color-100);
+}
+
+.products__pagination-link--active {
+    color: var(--color-50);
+    background-color: var(--color-100);
+}

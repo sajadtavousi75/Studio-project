@@ -1,0 +1,25 @@
+@media screen and (max-width: 1200px) {
+    .main-header{
+        height: 600px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .main-header{
+        height: 500px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main-header{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .main-header{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 470px) {
+    .main-header{
+        height: 250px;
+    }
+}

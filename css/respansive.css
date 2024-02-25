@@ -1,0 +1,142 @@
+@media screen and (max-width: 1400px) {
+    .headphone-contenet__title,.speaker-contenet__title{
+        font-size: 100px;
+    }
+    .slider-img{
+        width: 340px;
+        height: 300px;
+      }
+}
+@media screen and (max-width: 1200px) {
+    
+    .headphone-contenet__title,.speaker-contenet__title{
+        font-size: 70px;
+    }
+    .slider-img{
+        width: 280px;
+        height: 250px;
+      }
+
+      .contact-content{
+        display: flex;
+        flex-direction: column;
+      }
+}
+@media screen and (max-width: 992px) {
+    .nav-profile{
+        display: flex;
+    }
+    .navbar-right{
+        display: none;
+    }
+    .nav__toggle-icon{
+        display: flex;
+    }
+    .navbar-middle {
+        
+        background-color: var(--color-100);
+        position: absolute;
+        top: 100%;
+        flex-direction: column;
+        width: 30%;
+        right: 5%;
+        /* left: 0; */
+        align-items: center;
+        justify-content: center;
+        transition: all 120ms ease-in;
+        height: 0;
+        overflow: hidden;
+    }
+    .menu--open {
+        height: 15rem;
+    }
+    .navbar-middle__item {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    .navbar-middle-link{
+        color: var(--color-50) ;
+    }
+    
+    
+    .headphone-box{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .speaker-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .headphone-img {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 20px;
+        }
+        .speaker-img{
+          width: 300px;
+          height: 500px;
+        }
+        .headphone-contenet {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .speaker-contenet{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .speaker-contenet__btn{
+            margin-bottom: 40px;
+        }
+        /* .footer-box{
+            display: flex;
+            flex-direction: column;
+        } */
+        .footer-left{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer-left_content-box{
+            margin-bottom: 20px;
+        }
+        .footer-right__content{
+            margin-bottom: 20px;
+        }
+        .slider-img{
+            width: 300px;
+            height: 250px;
+          }
+}
+@media screen and (max-width: 768px) {
+    
+    .slider-img{
+        width: 210px;
+        height: 200px;
+      }
+}
+@media screen and (max-width: 576px) {
+    .navbar-logo{
+        width: 200px;
+    }
+    
+    .headphone-contenet__title,.speaker-contenet__title{
+        font-size: 45px;
+    }
+    .headphone-contenet__des,.speaker-contenet__des{
+        font-size: 20px;
+    }
+    .slider-img{
+        width: 400px;
+        height: 350px;
+      }
+}
+@media screen and (max-width: 470px) {
+    .navbar-logo{
+        width: 150px;
+    }
+}

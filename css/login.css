@@ -1,0 +1,24 @@
+@import './variables.css';
+@import './font.css';
+@import './default.css';
+@import './navbar.css';
+@import './footer.css';
+@import './form.css';
+
+body {
+  width: 100%;
+  height: 100%;
+padding-top: 45px;
+
+}
+
+
+.main-header{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/Bg-top.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+  }

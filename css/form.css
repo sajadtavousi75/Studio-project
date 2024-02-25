@@ -1,0 +1,87 @@
+.login-form{
+    width: 350px;
+    background-color: rgba(142,197,234,0.85);
+    padding: 30px;
+  }
+  .login-title{
+    margin-bottom: 15px;
+  }
+  .login-title h1{
+    color: var(--color-100);
+    font-size: 20px;
+    font-family: corals b ;
+    margin-bottom: 15px;
+  }
+
+  .login-title p{
+    color: var(--color-100);
+    font-family: corals r ;
+  }
+
+  .login-form__username{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .login-form__password{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+
+  .login-form__firstName-input,.login-form__lastName-input{
+    width: 47%;
+    background-color: transparent;
+    border: 2px solid var(--color-100);
+    border-radius: 5px;
+    height: 30px;
+    outline: none;
+    padding: 10px;
+  }
+
+  .login-form__username-input{
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid var(--color-100);
+    border-radius: 5px;
+    height: 30px;
+    outline: none;
+    padding: 10px;
+  }
+
+  .login-form__password-input{
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid var(--color-100);
+    border-radius: 5px;
+    height: 30px;
+    outline: none;
+    padding: 10px;
+  }
+
+  .login-form__btn{
+    width: 100%;
+    background-color: var(--color-100);
+    border: 2px solid var(--color-100);
+    border-radius: 5px;
+    height: 30px;
+    outline: none;
+    padding: 10px;
+    color: var(--color-50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .login-form__username-textarea{
+    height: 150px;
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid var(--color-100);
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+  }

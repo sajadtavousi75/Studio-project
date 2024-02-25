@@ -1,0 +1,122 @@
+@import './variables.css';
+@import './font.css';
+@import './default.css';
+@import './navbar.css';
+@import './footer.css';
+@import './product-box.css';
+
+body {
+    width: 100%;
+    height: 100%;
+  background: rgb(10, 47, 88);
+  background: linear-gradient(
+    0deg,
+    rgba(10, 47, 88, 1) 0%,
+    rgba(142, 197, 234, 1) 100%
+  );
+  padding-top: 45px;
+  
+}
+
+.main-header{
+  height: 700px;
+  background-image: url(../images/360.png);
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.new-products{
+  width: 100%;
+}
+
+.products-header{
+display: flex;
+align-items: center;
+justify-content: space-around;
+height: 50px;
+  background-color: var(--color-100);
+
+}
+.populate,.new{
+display: flex;
+align-items: center;
+justify-content: center;
+color: var(--color-100);
+background-color: var(--color-50);
+height: 100%;
+width: 200px;
+font-family:corals b ;
+font-size: 20px;
+}
+
+
+.headphone-contenet__title,.speaker-contenet__title{
+    letter-spacing: 10px;
+font-size: 130px;
+font-family: corals e;
+background: -webkit-gradient(linear, left top, right bottom, from(#0A2F58), to(#8EC5EA));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.headphone-contenet__des,.speaker-contenet__des{
+font-size: 30px;
+margin-top: 15px;
+color: var(--color-100);
+font-family: corals r;
+}
+.headphone-contenet__btn,.speaker-contenet__btn{
+    margin-top: 20px;
+padding: 15px;
+border: none;
+outline: none;
+background-color: var(--color-50);
+color: var(--color-100);
+font-size: 20px;
+}
+
+.headphone-img {
+width: 400px;
+height: 400px;
+}
+.speaker-img{
+  width: 400px;
+  height: 600px;
+}
+
+.speaker{
+    margin-top: 50px;
+}
+
+.gallery-header{
+  width: 100%;
+  background-color: var(--color-50);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: var(--color-100);
+  font-family: corals b;
+}
+.slider-parent{
+  margin-top: 25px;
+width: 100%;
+}
+
+.slider-img{
+  width: 380px;
+  height: 300px;
+}
+
+  .line-red{
+    width: 100%;
+    height: 2px;
+    background-color: red;
+    margin-bottom: 5px;
+  }
+.line-white{
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-50);
+}

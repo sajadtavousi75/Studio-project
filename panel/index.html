@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./vendor/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./vendor/SwiperSlider/swiper.css" />
+    <link rel="stylesheet" href="./vendor/FontAwesome5/all.min.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+</head>
+<body>
+    <!-- start sidebar -->
+    <div class="sidebar">
+        <div class="container d-flex flex-column">
+            <img src="../images/Logo.png" alt="" class="sidebar-logo">
+            <h1 class="sidebar-name">sajad</h1>
+            <ul class="sidebar-list">
+                <li class="sidebar-item sidebar-item__active">
+                    <a href="./index.html" class="sidebar-link ">Dashboard</a>
+                </li>
+                <li class="sidebar-item ">
+                    <a href="./products.html" class="sidebar-link">Products</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="./users.html" class="sidebar-link">Users</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="./category.html" class="sidebar-link">Category</a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="./comment.html" class="sidebar-link">Comments</a>
+                </li>
+            </ul>
+            <button class="sidebar-btn">Log Out</button>
+            <span>@ 2023</span>
+        </div>
+    </div>
+    <!-- finish sidebar -->
+
+    <!-- start main -->
+    <div class="main">
+        <div class="container">
+            <div class="row main-top d-flex align-items-center justify-content-around">
+                <div class="col-lg-6 main-top__price d-flex align-items-center justify-content-center">
+                    250$ <span>In this month</span>
+                </div>
+                <div class="col-lg-6 main-top__log d-flex align-items-center justify-content-center">
+                    856 <span>Logged in members</span>
+                </div>
+            </div>
+            <div class="main-chart">
+                <canvas class="sale-chart"></canvas>
+            </div>
+        </div>
+    </div>
+    <!-- finish main -->
+
+
+    <script src="./vendor/Bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./vendor/FontAwesome5/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="./js/chart.js"></script>
+</body>
+</html>

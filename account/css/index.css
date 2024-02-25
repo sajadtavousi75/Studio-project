@@ -1,0 +1,200 @@
+@import './variables.css';
+@import './font.css';
+@import './default.css';
+@import './sidebar.css';
+@import './topbar.css';
+@import './footer.css';
+
+
+body{
+    display: flex;
+}
+.main{
+    flex-basis: 82%;
+    background-color: var(--color-50);
+}
+
+.main-content {
+padding: 30px;
+}
+
+.main-content__left-title__top{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.main-content__left-title__top >span{
+    background-color: var(--color-100);
+color: var(--color-50);
+display: block;
+width: 120px;
+padding: 10PX;
+border-radius: 5px;
+font-family: corals r;
+font-size: 20px;
+}
+
+.product-boxes{
+    margin-top: 40px;
+  }
+  .product-box{
+  background-color: var(--color-100);
+  padding: 10px;
+  border-radius: 10px;
+  row-gap: 10px;
+  }
+  .product-box__img{
+  width: 100%;
+  height: 100px;
+  }
+  .product-box__rating{
+  text-align: center;
+  }
+  .product-box__star{
+  font-size: 50px;
+  }
+  .product-box__title{
+    margin-top: 15px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+  }
+  .price{
+    color: rgb(218, 218, 218);
+    margin-right: 15px;
+    font-size: 15px;
+    position: relative;
+  }
+  
+  .price::after{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: red;
+    top: 35%;
+    left: 15%;
+    transform: rotate(-40deg);
+  }
+  .price-discount{
+    color: white;
+    font-size: 20px;
+  }
+  
+  .product-box__basket{
+  text-align: center;
+  background-color: var(--color-50);
+  display: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  }
+  
+  .product-box:hover .product-box__basket{
+    display: block;
+  }
+  .bsket-logo{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .line-product{
+    width: 100%;
+    height: 5px;
+    background-color: var(--color-100);
+  }
+
+  .main-content__left-title__botton{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--color-100);
+    }
+    .main-content__left-title__botton >span{
+        background-color: var(--color-100);
+    color: var(--color-50);
+    display: block;
+    width: 120px;
+    padding: 10PX;
+    border-radius: 5px;
+    font-family: corals r;
+    font-size: 20px;
+    }
+
+    table{
+        margin-top: 20px;
+    }
+
+    th,td{
+        text-align: center;
+    }
+    tr>td{
+        vertical-align: middle;
+    }
+
+    td > button{
+        background-color: var(--color-50);
+        border: 1px solid var(--color-100);
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .main-content-right{
+      margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-content__comment{
+        padding: 20px;
+        width: 280px;
+        background-color: var(--color-100);
+        color: var(--color-50);
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+
+    .main-content__cantact-email{
+        padding: 20px;
+        width: 280px;
+        background-color: var(--color-100);
+        color: var(--color-50);
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    .main-content__cantact-email>span{
+        margin-top: 0;
+        display: block;
+        margin-left: 15px;
+        border: 1px solid var(--color-50);
+        padding: 10px;
+        color: var(--color-50);
+    }
+
+    
+    .main-content__cantact-phone{
+        padding: 20px;
+        width: 280px;
+        background-color: var(--color-100);
+        color: var(--color-50);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 5px;
+    }
+
+    .main-content__cantact-phone>span{
+        margin-top: 0;
+        display: block;
+        margin-left: 15px;
+        border: 1px solid var(--color-50);
+        padding: 10px;
+        color: var(--color-50);
+    }

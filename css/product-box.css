@@ -1,0 +1,77 @@
+.product-boxes{
+    margin-top: 40px;
+  }
+  .product-box{
+  background-color: var(--color-100);
+  padding: 10px;
+  border-radius: 10px;
+  row-gap: 10px;
+  }
+  .product-box:hover{
+    box-shadow: 5px 10px 10px  var(--color-100);
+  }
+  .product-box__img{
+  width: 100%;
+  height: 100px;
+  }
+  .product-box__rating{
+  text-align: center;
+  margin-top: 10px;
+  }
+  .product-box__star{
+  font-size: 50px;
+  }
+  .product-box__title{
+    margin-top: 15px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: corals r;
+  }
+  .price{
+    color: rgb(218, 218, 218);
+    margin-right: 15px;
+    font-size: 15px;
+    position: relative;
+    font-family: corals r;
+  }
+  
+  .price::after{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: red;
+    top: 35%;
+    left: 15%;
+    transform: rotate(-40deg);
+  }
+  .price-discount{
+    color: white;
+    font-size: 20px;
+    font-family: corals r;
+  }
+  
+  .product-box__basket{
+  text-align: center;
+  background-color: var(--color-50);
+  display: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  }
+  
+  .product-box:hover .product-box__basket{
+    display: block;
+  }
+  .bsket-logo{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .line-product{
+    width: 100%;
+    height: 5px;
+    background-color: var(--color-100);
+  }

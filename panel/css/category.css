@@ -1,0 +1,16 @@
+@import './variables.css';
+@import './font.css';
+@import './default.css';
+@import './sidebar.css';
+@import './table.css';
+@import './form.css';
+
+body{
+    display: flex;
+}
+.main{
+    flex: 4;
+    padding: 20px;
+    background-color: var(--color-50);
+    padding-top: 50px;
+}

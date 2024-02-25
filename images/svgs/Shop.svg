@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d1d1d;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Icons">
+    <g id="Rounded">
+      <g id="Action">
+        <g id="_-Round-_-Action-_-add_shopping_cart" data-name="-Round-/-Action-/-add_shopping_cart">
+          <g>
+            <polygon id="Path" class="cls-2" points="0 0 24 0 24 24 0 24 0 0"/>
+            <path id="_Icon-Color" data-name="🔹Icon-Color" class="cls-1" d="m7,18c-1.1,0-1.99.9-1.99,2s.89,2,1.99,2,2-.9,2-2-.9-2-2-2Zm10,0c-1.1,0-1.99.9-1.99,2s.89,2,1.99,2,2-.9,2-2-.9-2-2-2Zm2.78-13.64H5.39s3.14,6.64,3.14,6.64h7.02l3.24-5.86s.19-.42.39-.56c.16-.14.39-.21.61-.22Zm-11.68,8.64h7.45c.75,0,1.41-.41,1.75-1.03l3.38-6.13c.27-.48.09-1.09-.39-1.36-.48-.26-1.09-.09-1.35.39-.11.2-2.17,3.93-3.39,6.13h-7.02L4.54,2.57c-.16-.35-.52-.57-.9-.57h-1.64c-.55,0-1,.45-1,1s.45,1,1,1h1l3.6,7.59-1.35,2.44c-.73,1.34.23,2.97,1.75,2.97h11c.55,0,1-.45,1-1s-.45-1-1-1H7l1.1-2Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
